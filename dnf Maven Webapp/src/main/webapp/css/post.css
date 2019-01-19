@@ -1,0 +1,334 @@
+/* post开始 */
+.post{
+
+}
+.post-top{
+height: 30px;
+margin-top: 44px;
+}
+.post .z{
+    line-height: 30px;
+    float: left;
+}
+.post .z .z-home{
+    float: left;
+    width: 18px;
+    height: 30px;
+    background: url('../images/said/home.png')  no-repeat;
+}
+.post .z .z-lt{
+    font-size: 12px;
+    color: #777;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.post .z .z-lt i{
+font-size: 16px;
+}
+.post .y{
+    line-height: 30px;
+    float: right;
+}
+.post .y .back{
+    cursor: pointer;
+    border: 1px solid #d1d1d4;
+    padding: 7px 10px;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-family: "Arial","Microsoft YaHei","Microsoft YaHei","Microsoft YaHei",sans-serif;
+}
+.post .y .one{
+    border: 1px solid #0087e0;
+    color: #fff;
+    background: #0087e0;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 7px 10px;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-family: "Arial","Microsoft YaHei","Microsoft YaHei","Microsoft YaHei",sans-serif;
+}
+.post .y a{
+    cursor: pointer;
+    border: 1px solid #d1d1d4;
+    padding: 7px 10px;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-family: "Arial","Microsoft YaHei","Microsoft YaHei","Microsoft YaHei",sans-serif;
+    color: #333;
+    text-decoration: none;
+}
+.post .y a:hover,.post .y .back:hover{
+    color: #fff;
+    background: #0087e0;
+}
+.tiez{
+    border-color: #C2D5E3;
+    margin: 16px 0px 40px;
+    min-height: 300px;
+}
+.evetie-lz,.evetie{
+    border-bottom: 1px solid #0087e0;
+}
+.evetie{
+    margin-top: 10px;
+}
+.tiezibt a,.tiezibt span{
+color: #333;
+}
+.tiez .postlist{
+    width: 870px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.tiez .postlist table{
+    margin-left: 20px;
+}
+.tiez .postlist .ptb{
+}
+.pls{
+    background: #fff;
+    vertical-align: top;
+    width: 160px;
+    overflow: hidden;
+}
+.pls .userinfo .avtm{
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    margin: 0 auto;
+    color: #444;
+    border-color: rgba(0,0,0,0.03);
+}
+.pls .userinfo .avtm img{
+    width: 100px !important;
+    height: 100px;
+    border-radius: 50px;
+    padding: 0 !important;
+    margin-bottom: 12px;
+}
+.xx1{
+    float: right;
+    position: relative;
+    top: -114px;
+    left: -33px;
+}
+.xyjf{
+    width: 120px;
+    margin: 0 auto 10px;
+    position: relative;
+    left: -6px;
+}
+.xyjf .authi a{
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+}
+.sq{
+    margin: 0 0 20px 8px;
+}
+.sq .userlevel{
+    height: 12px;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 120px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
+.sq .userlevel .level-num{
+    width: 50px;
+    text-indent: 17px;
+    color: #777;
+    line-height: 12px;
+    position: absolute;
+    left: -15px;
+}
+.sq .userlevel .level-name{
+    left: 20px;
+    text-indent: 0;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 12px;
+    color: #777;
+    margin-left: 10px;
+    position: absolute;
+}
+.tns{
+}
+.pls .tns table{
+    margin-left: -8px;
+    width: 140px;
+    height: 36px;
+}
+.tns th{
+    border-right: 1px solid #CCC;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.tns td{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.tns tr a{
+    line-height: 20px;
+}
+.sqtp{
+    margin-top: 10px;
+    width: 128px;
+}
+.cl{
+height: 39px;
+}
+.cl dt{
+    margin-right: 3px;
+    width: 30px;
+    float: left;
+    overflow: hidden;
+    height: 1.6em;
+    line-height: 1.6em;
+}
+.cl dd{
+    overflow: hidden;
+    height: 1.6em;
+    line-height: 1.6em;
+    color: #999 !important;
+}
+.plc{
+    vertical-align: top;
+    padding: 0 30px;
+}
+.plc table{
+    margin-top: 35px;
+}
+.pi{
+    margin-bottom: 20px;
+    padding: 20px 0;
+    overflow: hidden;
+    height: 16px;
+    border-bottom: 1px solid black;
+}
+.zdnc{
+    margin-left: 5px;
+}
+.zdnc label{
+    margin-right: 4px;
+    padding: 0;
+    height: 16px;
+    line-height: 16px;
+    cursor: pointer;
+}
+.zdnc .pre{
+    margin-right: 4px;
+    padding: 0;
+    width: 31px;
+    height: 16px;
+    line-height: 16px;
+    border: 1px solid;
+    border-color: #848484 #E0E0E0 #E0E0E0 #848484;
+    background: #FFF url(http://dnf.gamebbs.qq.com/static/image/common/px.png) repeat-x 0 0;
+}
+.pi em a{
+    float: right;
+    margin-top: -4px;
+    padding: 4px 6px;
+    border: 1px solid #FFF;
+    font-weight: 400;
+}
+.authii{
+    margin-right: 10px;
+}
+.authicn img{
+    cursor: pointer;
+    width: 16px;
+}
+.authii .pipe{
+    margin: 0 8px 0 7px;
+    color: #CCC;
+}
+.t-fsz{
+    min-height: 100px;
+}
+.t-fsz .t-f{
+    font-size: 14px;
+    color: #333;
+}
+.plm{
+}
+.sign{
+    overflow: hidden;
+    margin-top: 40px;
+    padding-top: 20px;
+    line-height: 1.6em;
+    background: url(http://dnf.gamebbs.qq.com/static/image/common/sigline.gif) no-repeat 0 0;
+    margin-bottom: 10px;
+}
+.pob{
+    margin: 8px 0 0 5px;
+    line-height: 36px;
+    padding-bottom: 20px;
+}
+.pob em a{
+    padding: 5px 10px 5px 5px;
+    color: #777;
+}
+.pob em a:hover {
+    color: #15a2ff;
+}
+.next a{
+    display: block;
+    background: #fff!important;
+    width: 790px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(194,213,227);
+    border-radius: 3px;
+    text-align: center;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.next a:hover{
+    display: block;
+    border: 1px solid rgb(194,213,227);
+    border-radius: 3px;
+    text-align: center;
+    color: #333;
+}
+.post-bottom{
+    height: 30px;
+    margin-top: 44px;
+}
+.acpost{
+    display: inline-block;
+    width: 43px;
+    height: 30px;
+    line-height: 30px;
+    background: #0087e0;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 0 15px;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,.25);
+    vertical-align: middle;
+}
+.pg{
+    line-height: 26px;
+    float: left;
+}
+.pg a:hover{
+color: white;
+}
+/* post结束 */

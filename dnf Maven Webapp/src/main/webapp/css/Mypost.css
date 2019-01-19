@@ -1,0 +1,215 @@
+/* Mypost开始 */
+.MyMypost{
+
+}
+.Mypost-top{
+    height: 30px;
+    margin-top: 44px;
+    }
+.Mypost .z{
+        line-height: 30px;
+        float: left;
+}
+.Mypost .z .z-home{
+        float: left;
+        width: 18px;
+        height: 30px;
+        background: url('../images/said/home.png')  no-repeat;
+}
+.Mypost .z .z-lt{
+        font-size: 12px;
+        color: #777;
+        float: left;
+        height: 30px;
+        line-height: 30px;
+}
+.Mypost .z .z-lt i{
+    font-size: 16px;
+}
+.bm{
+    border: 1px solid #CDCDCD;
+    background: #FFF;
+    margin-bottom: 10px;
+    padding-bottom: 5px !important;
+    margin-top: 10px;
+}
+.bm .bm-h{
+    padding-top: 5px;
+    border: none;
+    background: transparent;
+    padding: 0 10px;
+    height: 31px;
+    line-height: 31px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.bm .bm-h .xs2{
+    font-size: 14px !important;
+    color: #333;
+}
+.pg{
+    margin-top: 5px;
+    line-height: 26px;
+    float: right;
+}
+.pg a{
+    padding-right: 25px;
+    background-image: url(http://dnf.gamebbs.qq.com/static/image/common/arw_r.gif);
+    background-position: 100% 50%;
+    padding: 0 18px;
+    display: inline;
+    float: left;
+    margin-left: 4px;
+    height: 26px;
+    border: 1px solid;
+    border-color: #C2D5E3;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    color: #333;
+    overflow: hidden;
+    text-decoration: none;
+}
+.pg a:hover, .pgb a:hover {
+    border-color: #369;
+    color: #369;
+}
+.ttp{
+    margin-bottom: 5px;
+    padding-top: 10px;
+    border-width: 2px 0 0;
+    background: transparent;
+    height: 32px;
+}
+.ttp li{
+    float: left;
+    padding-bottom: 5px;
+}
+.ttp li a{
+    float: left;
+    margin-right: 5px;
+    padding: 4px 8px 3px;
+    height: 18px;
+    border: 1px solid #CDCDCD;
+    background: #FFF;
+    white-space: nowrap;
+}
+.ttp li a:hover{
+    border-color: #369;
+    color: #369;
+    text-decoration: none;
+}
+.ttp .xw1 a{
+    padding-right: 12px;
+    padding-left: 12px;
+    border-color: #369;
+    background: #E5EDF2;
+    color: #369;
+}
+.threadlist{
+    position: relative;
+}
+.threadlist .th{
+    margin-top: 1px;
+    padding: 0 10px;
+    border-bottom: 1px solid #CDCDCD;
+    background: #F2F2F2;
+}
+.threadlist .th th{
+    width: 785px;
+    height: 20px;
+    border: none;
+    vertical-align: baseline;
+    padding: 5px 0;
+    padding-right: 1.5em;
+    zoom: 1;
+    text-align: left;
+    font-weight: 400;
+}
+.pipe{
+    margin: 0 8px 0 7px;
+    color: #CCC;
+}
+.threadlist .th td{
+    height: 20px;
+    border: none;
+    vertical-align: baseline;
+    padding: 5px 0;
+}
+.threadlist .th .by{
+    width: 105px;
+    line-height: 14px;
+}
+.threadlist .th .num{
+    width: 60px;
+    line-height: 14px;
+}
+.threadlist .bm-c .icn{
+    padding-left: 5px;
+    width: 25px;
+    text-align: left;
+}
+cite{
+    display: block;
+    font-style: italic;
+}
+cite a{
+    line-height: 14px;
+}
+.num em{
+    display: block;
+}
+.threadlist .bm-c{
+    margin-top: 1px;
+    padding: 0 10px;
+    background: #FFF;
+}
+.threadlist .bm-c th{
+    width: 785px;
+    height: 20px;
+    border: none;
+    vertical-align: baseline;
+    padding: 5px 0;
+    padding-right: 1.5em;
+    zoom: 1;
+    text-align: left;
+    font-weight: 400;
+}
+.threadlist .bm-c td{
+    height: 20px;
+    border: none;
+    vertical-align: baseline;
+    padding: 5px 0;
+}
+.threadlist .bm-c .by{
+    width: 105px;
+    line-height: 14px;
+}
+.threadlist .bm-c .num{
+    width: 60px;
+    line-height: 14px;
+}
+.bm-c tr{
+border-bottom: 1px solid #369;
+}
+.pgb{
+    line-height: 26px;
+}
+.pgb a{
+    padding-left: 25px;
+    background-image: url(http://dnf.gamebbs.qq.com/static/image/common/arw_l.gif);
+    background-position: 5px 50%;
+    padding: 0 18px;
+    display: inline;
+    float: left;
+    margin-left: 4px;
+    height: 26px;
+    border: 1px solid;
+    border-color: #C2D5E3;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    color: #333;
+    overflow: hidden;
+    text-decoration: none;
+    margin-top: 5px;
+}
+/* Mypost结束 */

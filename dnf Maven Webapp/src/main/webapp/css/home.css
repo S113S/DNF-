@@ -1,0 +1,363 @@
+body,html{
+    background: #f1f1f1;
+}
+
+    /* slide_news */
+
+    .slide_news {
+        margin-top: 40px;
+        height: 320px;
+    }
+
+    .slide_news .right {
+        float: right;
+        width: 650px;
+        height: 320px;
+        position: relative;
+        background: #fff;
+    }
+
+    .slide_news .right .news-top {
+        width: 630px;
+        height: 54px;
+        margin-top: 10px;
+        padding-bottom: 5px;
+        position: relative;
+    }
+
+    .slide_news .right .news-top span {
+        font: 300 18px/30px "微软雅黑";
+        position: absolute;
+        height: 30px;
+        left: 30px;
+        top: 20px;
+    }
+
+    .slide_news .right .news-top i {
+        position: absolute;
+        height: 20px;
+        left: 402px;
+        top: 30px;
+    }
+
+    .slide_news .right .news-top i a {
+        font: 300 14px/20px "微软雅黑";
+        margin-right: 12px;
+    }
+
+    .slide_news .right .news-mid {
+        width: 600px;
+        height: 100px;
+        position: relative;
+        margin-top: 10px;
+        border-bottom: 1px solid #f1f1f1;
+        margin-left: 30px;
+    }
+
+    .slide_news .right .news-mid .mem {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        margin: 0 20px 20px 0;
+    }
+
+    .slide_news .right .news-mid .mem img {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+    }
+
+    .slide_news .right .news-mid .mem_s {
+        width: 490px;
+        height: 100px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .slide_news .right .news-mid .mem_s .mem_s-top {
+        position: absolute;
+        width: 485px;
+        left: 0;
+        top: 0;
+    }
+
+    .slide_news .right .news-mid .mem_s .mem_s-top a {
+        font: 300 14px/20px "微软雅黑";
+        color: #000;
+    }
+
+    .slide_news .right .news-mid .mem_s .mem_s-top i {
+        font: 300 13px/20px "微软雅黑";
+        float: right;
+    }
+
+    .slide_news .right .news-mid .mem_s .mem_s-bottom {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 20px;
+    }
+
+    .slide_news .right .news-mid .mem_s .mem_s-bottom a {
+        font: 300 14px/20px "微软雅黑";
+    }
+
+    .slide_news .right .news-bottom {
+        width: 600px;
+        height: 100px;
+        position: relative;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    .slide_news .right .news-bottom div {
+        width: 590px;
+        margin-bottom: 10px;
+    }
+
+    .slide_news .right .news-bottom div a {
+        font: 300 14px/20px "微软雅黑";
+    }
+
+    .slide_news .right .news-bottom div i {
+        font: 300 13px/20px "微软雅黑";
+        float: right;
+    }
+
+    /* shortcut */
+
+    .shortcut {
+        margin-top: 20px;
+        height: 780px;
+        position: relative;
+    }
+
+    .shortcut .fl,
+    .shortcut .fl ul {
+        width: 894px;
+        height: 780px;
+    }
+
+    .shortcut .fl ul li {
+        width: 223px;
+        height: 390px;
+        float: left;
+    }
+
+    .shortcut .fl ul li a {
+        display: inline-block;
+        position: relative;
+        width: 223px;
+        height: 390px;
+    }
+
+    .shortcut .fl ul li a span{
+        display: block;
+        font: 300 14px/13px "微软雅黑";
+        color:#B8860B;
+        margin: 20px auto 10px auto;
+        text-align: center;
+    }
+
+    .shortcut .fl ul li a i{
+        display: block;
+        font: 300 13px/12px "微软雅黑";
+        color: #b1b1b1;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .shortcut .fl ul li.fl_1 :hover {
+        background: url(../images/home/board_cut_0619.jpg) no-repeat 0px -390px;
+    }
+
+    .shortcut .fl ul li.fl_2 :hover {
+        background: url(../images/home/board_cut_0619.jpg) no-repeat -223px -390px;
+    }
+
+    .shortcut .fl ul li.fl_3 :hover {
+        background: url(../images/home/board_cut_0619.jpg) no-repeat -446px -390px;
+    }
+
+    .shortcut .fl ul li.fl_4 :hover {
+        background: url(../images/home/board_cut_0619.jpg) no-repeat -669px -390px;
+    }
+
+    .shortcut .fl ul li.fl_5 :hover {
+        background: url(../images/home/board_cut_knightawaken.jpg) no-repeat 0px -390px;
+    }
+
+    .shortcut .fl ul li.fl_6 :hover {
+        background: url(../images/home/board_cut_knightawaken.jpg) no-repeat -223px -390px;
+    }
+
+    .shortcut .fl ul li.fl_7 :hover {
+        background: url(../images/home/board_cut_knightawaken.jpg) no-repeat -446px -390px;
+    }
+
+    .shortcut .fl ul li.fl_8 :hover {
+        background: url(../images/home/board_cut_knightawaken.jpg) no-repeat -669px -390px;
+    }
+
+    .shortcut .fr{
+        height: 780px;
+        width: 285px;
+        background: url(../images/home/sly3.png) no-repeat center center;
+        position: absolute;
+        left: 914px;
+        top: 0px;
+        cursor: pointer;
+        opacity: 1;
+        transition:1s;
+    }
+
+    .shortcut .fr:hover{
+        background: url(../images/home/sly2.png) no-repeat center center;
+        opacity: 0.9;
+        transition:1s;
+    }
+
+    .shortcut .fr .mes{
+        display: none;
+        width: 200px;
+        height: 150px;
+        position: absolute;
+        left: 155px;
+        top: -140px;
+        background: url(../images/home/mes.png) no-repeat 0 0; 
+        opacity: 0.9;
+        transition:1s;
+    }
+
+    .shortcut .fr .mes span{
+        display: inline-block;
+        height: 50px;
+        width: 180px;
+        padding: 50px 10px;
+        font: 600 18px/25px "微软雅黑";
+        text-align: center;
+        vertical-align: middle;
+        opacity: 0.9;
+    }
+
+    .shortcut .fr:hover .mes{
+        display: block;
+        opacity: 0.9;
+        transition:1s;
+    }
+
+    /* more */
+
+    .more {
+        margin-top: 20px;
+        height: 379px;
+        overflow: hidden;
+    }
+
+    .more>div {
+        width: 285px;
+        height: 379px;
+        background: #fff;
+        float: left;
+        margin-right: 19px;
+    }
+
+    .more>div:nth-child(4) {
+        margin-right: 0px;
+    }
+
+    .more>div .more_in {
+        width: 265px;
+        height: 379px;
+        margin: 0 auto;
+    }
+
+    .more .head {
+        height: 29px;
+        width: 250px;
+        margin-bottom: 10px;
+        padding: 30px 0 0 15px;
+    }
+
+    .more .head span {
+        font: 300 15px/29px "微软雅黑";
+        color: #000;
+        margin-left: 8px;
+    }
+
+    .more .head a {
+        font: 400 14px/29px "微软雅黑";
+        color: #000;
+        float: right;
+        margin-right: 10px;
+    }
+
+    .more ul {
+        width: 265px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    .more ul li {
+        width: 225px;
+        height: 75px;
+        margin: 0 25px 0 20px;
+        position: relative;
+    }
+
+    .more ul li .tbody-mem {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+    }
+
+    .more ul li .tbody-mem img {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+    }
+
+    .more ul li .tbody-content {
+        position: absolute;
+        width: 166px;
+        height: 50px;
+        margin-bottom: 25px;
+        left: 67px;
+        top: 0;
+    }
+
+    .more ul li .tbody-content .tbody-content-top {
+        position: absolute;
+        width: 166px;
+        height: 21px;
+        left: 0;
+        top: 0;
+    }
+
+    .more ul li .tbody-content .tbody-content-top a {
+        font: 300 14px/21px "微软雅黑";
+        color: #000;
+    }
+
+    .more ul li .tbody-content .tbody-content-top i {
+        font: 300 13px/21px "微软雅黑";
+        float: right;
+        color: #a1a1a1;
+    }
+
+    .more ul li .tbody-content .tbody-content-bottom {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0px;
+    }
+
+    .more ul li .tbody-content .tbody-content-bottom a {
+        font: 300 14px/20px "微软雅黑";
+        color: #a1a1a1;
+    }
+
+    .more b {
+        display: inline-block;
+        width: 12px;
+    }

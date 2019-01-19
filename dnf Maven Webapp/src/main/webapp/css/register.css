@@ -1,0 +1,108 @@
+/* register */
+body{
+    background: #f1f1f1;
+}
+
+.register{
+    height: 836px;
+    background: #ffffff;
+}
+
+.register .register-fl{
+    height: 794px;
+    width: 480px;
+    float: left;
+    position: fixed;
+    background: url("../images/login-register/01-1.jpg");
+}
+
+.register .register-fr{
+    height: 794px;
+    width: 720px;
+    float: right;
+}
+
+.register .register-fr .register-fr-top{
+    height: 86px;
+    width: 720px;
+}
+
+.register .register-fr .register-fr-main{
+    height: 664px;
+    width: 480px;
+    margin: 0 120px;
+}
+
+.register .register-fr .register-fr-main .main-title h1{
+    height: 44px;
+    font: 500 44px/59px "微软雅黑";
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.register .register-fr .register-fr-main .main-title h2{
+    height: 25px;
+    font: 500 25px/33px "微软雅黑";
+    margin-bottom: 64px;
+    color: #000;
+}
+
+.register .register-fr .register-fr-main form{
+    width: 480px;
+    height: 506px;
+}
+
+.register .register-fr .register-fr-main form>div{
+    width: 480px;
+    height: 52px;
+    margin-top: 40px;
+}
+
+.register .register-fr .register-fr-main form>div>input{
+    width: 438px;
+    height: 50px;
+    padding: 0 20px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    font: 400 20px/50px "微软雅黑";
+    color: #c1c1c1;
+}
+
+.register .register-fr .register-fr-main form .peaple input{
+    width: 265px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.register .register-fr .register-fr-main form .peaple select{
+    width: 154px;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 5px;
+    border: 1px solid #c1c1c1;
+    font: 400 20px/50px "微软雅黑";
+    color: #c1c1c1;
+}
+
+
+
+.register .register-fr .register-fr-main form .ready input{
+    background: rgb(2, 118, 252);
+    color: #ffffff;
+    height: 52px;
+    width: 480px;
+    padding: 0 0;
+    border: none;
+}
+
+.register .register-fr .register-fr-bottom{
+    height: 40px;
+    width: 720px;
+    text-align: center;
+    margin-top: 46px;
+}
+
+.register .register-fr .register-fr-bottom span{
+    font: 300 13px/13px "微软雅黑";
+    color: #c1c1c1;
+}

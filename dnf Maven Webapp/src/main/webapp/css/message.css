@@ -1,0 +1,198 @@
+/* message */
+body {
+    background: url(../images/home/bg_cut.png) no-repeat 0 0;
+    background-size: 100% bottom;
+    background-attachment: fixed;
+}
+
+.message .message-top {
+    height: 29px;
+    margin: 10px 0 8px 0;
+}
+
+.message .message-top img {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+
+.message .message-top i {
+    font: 900 14px/29px "宋体";
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.message .message-top a {
+    font: 500 14px/29px "微软雅黑";
+    display: inline-block;
+    height: 29px;
+}
+
+.message .message-top a:hover{
+    color: #666;
+}
+
+.message .message-top span {
+    font: 500 14px/29px "微软雅黑";
+}
+
+.message .message-bottom {
+    width: 1200px;
+    height: auto;
+    border: 1px solid #c1c1c1;
+}
+
+.message .message-bottom .set {
+    width: 137px;
+    height: 249px;
+    float: left;
+}
+
+.message .message-bottom .set h2 {
+    width: 117px;
+    height: 24px;
+    padding: 10px;
+    margin-bottom: 1px;
+    border-bottom: 1px dotted #c1c1c1;
+    font: 400 18px/29px "微软雅黑";
+    color: #000;
+}
+
+.message .message-bottom .set ul {
+    width: 137px;
+    height: 204px;
+}
+
+.message .message-bottom .set ul li {
+    height: 33px;
+    width: 117px;
+    margin: 0 10px;
+    border-bottom: 1px dotted #c1c1c1;
+}
+
+.message .message-bottom .set ul li a {
+    display: inline-block;
+    height: 33px;
+    width: 117px;
+    font: 400 14px/33px "微软雅黑";
+}
+
+.message .message-bottom .set ul li a:hover {
+    color: #666;
+}
+
+.message .message-bottom .contents {
+    width: 1000px;
+    height: auto;
+    padding-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    float: right;
+}
+
+.message .message-bottom .contents ul {
+    width: 995px;
+    height: 31px;
+    padding-left: 5px;
+    margin-top: 3px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.message .message-bottom .contents ul li {
+    width: 70px;
+    height: 32px;
+    margin-right: 3px;
+    text-align: center;
+    margin-bottom: -1px;
+}
+
+.message .message-bottom .contents ul li a {
+    display: inline-block;
+    width: 68px;
+    height: 30px;
+    font: 500 12px/30px "微软雅黑";
+    border: 1px solid #c1c1cc;
+    text-align: center;
+}
+
+.message .message-bottom .contents ul li a:hover {
+    color: #666;
+}
+
+.message .message-bottom .contents .mess{
+    width: 1000px;
+}
+
+.message .message-bottom .contents .mess .mess-box{
+    width: 1000px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #c1c1c1;
+    position: relative;
+    cursor: pointer;
+}
+
+.message .message-bottom .contents .mess .mess-box img{
+    width: 54px;
+    height: 54px;
+    float: left;
+    margin-right: 20px;
+}
+
+.message .message-bottom .contents .mess .mess-box .mess-box-fr{
+    float: left;
+    width: 900px;
+    font: 100 12px/20px "微软雅黑";
+    color: #000;
+}
+
+.message .message-bottom .contents .mess .mess-box .mess-box-fr a{
+    color: rgb(2, 118, 252);
+    font: 900 12px/24px "微软雅黑";
+}
+
+.message .message-bottom .contents .mess .mess-box .mess-box-fr s{
+    color: #666666;
+}
+
+.message .message-bottom .contents .mess .mess-box .mess-box-fr span{
+    position: absolute;
+    left: 900px;
+    bottom: 5px;
+    color: #666666;
+    font: 900 12px/20px "微软雅黑";
+}
+
+.message .message-bottom .contents .mess .mess-box .mess-box-fr span a{
+    vertical-align: middle;
+}
+
+.message .message-bottom .contents .mail .mail-box{
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #c1c1c1;
+    position: relative;
+    cursor: pointer;
+}
+
+.message .message-bottom .contents .mail .mail-box img{
+    width: 54px;
+    height: 54px;
+    float: left;
+    margin-right: 10px;
+}
+
+.message .message-bottom .contents .mail .mail-box .mail-box-fr{
+    padding-top: 5px;
+}
+
+.message .message-bottom .contents .mail .mail-box .mail-box-fr a{
+    color: rgb(2, 118, 252);
+    font: 900 13px/30px "微软雅黑";
+}
+
+.message .message-bottom .contents .mail .mail-box .mail-box-fr s{
+    color: #666666;
+}

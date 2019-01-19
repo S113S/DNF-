@@ -1,0 +1,90 @@
+/* login */
+body{
+    background: #f1f1f1;
+}
+
+.login{
+    height: 836px;
+    background: #ffffff;
+}
+
+.login .login-fl{
+    height: 794px;
+    width: 480px;
+    float: left;
+    position: fixed;
+    background: url("../images/login-register/02.jpg");
+}
+
+.login .login-fr{
+    height: 794px;
+    width: 720px;
+    float: right;
+}
+
+.login .login-fr .login-fr-top{
+    height: 86px;
+    width: 720px;
+}
+
+.login .login-fr .login-fr-main{
+    height: 664px;
+    width: 480px;
+    margin: 0 120px;
+}
+
+.login .login-fr .login-fr-main .main-title h1{
+    height: 44px;
+    font: 500 44px/59px "微软雅黑";
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.login .login-fr .login-fr-main .main-title h2{
+    height: 25px;
+    font: 500 25px/33px "微软雅黑";
+    margin-bottom: 64px;
+    color: #000;
+}
+
+.login .login-fr .login-fr-main form{
+    width: 480px;
+    height: 506px;
+}
+
+.login .login-fr .login-fr-main form>div{
+    width: 480px;
+    height: 52px;
+    margin-top: 40px;
+}
+
+.login .login-fr .login-fr-main form>div>input{
+    width: 438px;
+    height: 50px;
+    padding: 0 20px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    font: 400 20px/50px "微软雅黑";
+    color: #c1c1c1;
+}
+
+.login .login-fr .login-fr-main form .ready input{
+    background: rgb(2, 118, 252);
+    color: #ffffff;
+    height: 52px;
+    width: 480px;
+    padding: 0 0;
+    border: none;
+}
+
+.login .login-fr .login-fr-bottom{
+    height: 40px;
+    width: 720px;
+    text-align: center;
+    margin-top: 46px;
+}
+
+.login .login-fr .login-fr-bottom span{
+    font: 300 13px/13px "微软雅黑";
+    color: #c1c1c1;
+}

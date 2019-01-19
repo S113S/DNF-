@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.game.dao.HitDao">
+	<select id="isZan" resultType="Hit">
+		select * from hit_
+		<where>
+			<choose>
+				<when test="pid!=0 and rid==0">
+					pid=#{pid} and uid=#{uid}
+				</when>
+				<when test="pid==0 and rid!=0">
+					rid=#{rid} and uid=#{uid}
+				</when>
+			</choose>
+		</where>
+	</select>
+	
+	<insert id="addZan" parameterType="Map">
+		insert into hit_ (pid,rid,uid,ishit) values(#{pid},#{rid},#{uid},#{ishit})
+	</insert>
+	
+	<update id="setZan" parameterType="Map">
+		update hit_ set ishit=#{ishit}
+		<where>
+			<choose>
+				<when test="pid!=0 and rid==0">
+					pid=#{pid} and uid=#{uid}
+				</when>
+				<when test="pid==0 and rid!=0">
+					rid=#{rid} and uid=#{uid}
+				</when>
+			</choose>
+		</where>
+	</update>
+</mapper>

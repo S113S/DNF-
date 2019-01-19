@@ -1,0 +1,69 @@
+html,div,body,input,p,span,ul,li,h1,h2,h3,h4,h5,h6,a,img,form,nav{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size:12px;
+    font-family: Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+
+    background:#fff;
+}
+i,s,b,u{
+    text-decoration: none;
+    font-size:12px;
+    font-style:normal;
+    font-weight: normal;
+}
+img{
+    border:0;
+    display: block;
+}
+input,form,button,textarea{
+    border:none;
+    margin: 0;
+    padding: 0;
+    resize:none;
+    outline-style:none;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#666;
+}
+a:hover{
+    color:#c81623;
+}
+.col-red{
+    color:#c81623 !important;
+}
+table{
+    border-collapse: collapse;
+}
+.clearfix::before,.clearfix::after{
+    content:"";
+    display: block;
+    clear:both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.clearfix{
+    zoom:1;/*兼容ie 6 7 8*/
+}
+.fr{
+    float:right;
+}
+.fl{
+    float:left;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.vm{
+	vertical-align: middle;
+}

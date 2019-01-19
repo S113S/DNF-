@@ -1,0 +1,242 @@
+        /* personal */
+        body {
+            background: url(../images/home/bg_cut.png) no-repeat 0 0;
+            background-size: 100% bottom;
+            background-attachment: fixed;
+        }
+
+        .personal {
+            height: 416px;
+        }
+
+        .personal .personal-top {
+            height: 29px;
+            margin: 10px 0 8px 0;
+
+        }
+
+        .personal .personal-top img {
+            display: inline-block;
+            vertical-align: middle;
+            position: relative;
+            top: -2px;
+        }
+
+        .personal .personal-top i {
+            font: 900 14px/29px "宋体";
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+
+        .personal .personal-top a {
+            font: 500 14px/29px "微软雅黑";
+            display: inline-block;
+            height: 29px;
+        }
+
+        .personal .personal-top a:hover{
+            color: #666;
+        }
+
+        .personal .personal-top span {
+            font: 500 14px/29px "微软雅黑";
+        }
+
+        .personal .personal-bottom {
+            width: 1200px;
+            height: 379px;
+            border: 1px solid #c1c1c1;
+        }
+
+        .personal .personal-bottom .set {
+            width: 137px;
+            height: 249px;
+            float: left;
+        }
+
+        .personal .personal-bottom .set h2 {
+            width: 117px;
+            height: 24px;
+            padding: 10px;
+            margin-bottom: 1px;
+            border-bottom: 1px dotted #c1c1c1;
+            font: 400 18px/29px "微软雅黑";
+            color: #000;
+        }
+
+        .personal .personal-bottom .set ul {
+            width: 137px;
+            height: 204px;
+        }
+
+        .personal .personal-bottom .set ul li {
+            height: 33px;
+            width: 117px;
+            margin: 0 10px;
+            border-bottom: 1px dotted #c1c1c1;
+        }
+
+        .personal .personal-bottom .set ul li a {
+            display: inline-block;
+            height: 33px;
+            width: 117px;
+            font: 400 14px/33px "微软雅黑";
+        }
+
+        .personal .personal-bottom .set ul li a:hover {
+            color: #666;
+        }
+
+        .personal .personal-bottom .contents {
+            width: 1000px;
+            height: 367px;
+            padding-top: 10px;
+            margin-right: 10px;
+            float: right;
+        }
+
+        .personal .personal-bottom .contents ul {
+            width: 995px;
+            height: 31px;
+            padding-left: 5px;
+            margin-top: 3px;
+            border-bottom: 1px solid #c1c1c1;
+        }
+
+        .personal .personal-bottom .contents ul li {
+            width: 70px;
+            height: 32px;
+            margin-right: 3px;
+            text-align: center;
+            margin-bottom: -1px;
+        }
+
+        .personal .personal-bottom .contents ul li a {
+            display: inline-block;
+            width: 68px;
+            height: 30px;
+            font: 500 12px/30px "微软雅黑";
+            border: 1px solid #c1c1cc;
+            text-align: center;
+        }
+
+        .personal .personal-bottom .contents ul li a:hover {
+            color: #666;
+        }
+
+        .personal .personal-bottom .contents table {
+            width: 1000px;
+            height: 322px;
+        }
+
+        .personal .personal-bottom .contents table tr.username {
+            width: 1000px;
+            height: 34px;
+        }
+
+        .personal .personal-bottom .contents table tr.username th {
+            display: inline-block;
+            width: 130px;
+            height: 18px;
+            padding: 9px 5px 7px 0;
+            text-align: left;
+            font: 500 11px/18px "微软雅黑";
+        }
+
+        .personal .personal-bottom .contents table tr.username td:nth-child(2) {
+            display: inline-block;
+            width: 709px;
+            height: 20px;
+            padding: 7px 0;
+            font: 500 11px/20px "微软雅黑";
+        }
+
+        .personal .personal-bottom .contents table tr.username td:nth-child(3) {
+            display: inline-block;
+            width: 156px;
+            height: 20px;
+            padding: 7px 0;
+        }
+
+
+        .personal .personal-bottom .contents table tr.other {
+            width: 1000px;
+            height: 42px;
+        }
+
+        .personal .personal-bottom .contents table tr.other th {
+            display: inline-block;
+            width: 130px;
+            height: 26px;
+            padding: 9px 5px 7px 0;
+            text-align: left;
+            font: 500 11px/26px "微软雅黑";
+        }
+
+        .personal .personal-bottom .contents table tr.other td:nth-child(2) {
+            display: inline-block;
+            width: 709px;
+            height: 28px;
+            padding: 7px 0;
+        }
+
+        .personal .personal-bottom .contents table tr.other td:nth-child(2) input.common {
+            width: 330px;
+            height: 17px;
+            padding: 2px 4px;
+            margin-right: 3px;
+            border: 1px solid #c1c1c1;
+        }
+
+
+        .personal .personal-bottom .contents table tr.other td:nth-child(2) input#role {
+            width: 139px;
+            height: 17px;
+            padding: 2px 4px;
+            border: 1px solid #c1c1c1;
+        }
+
+        .personal .personal-bottom .contents table tr.other td:nth-child(2) input#bind {
+            width: 92px;
+            height: 21px;
+            padding: 1px 6px 3px 6px;
+            border: 1px solid #c1c1c1;
+            font: 300 13px/13px "微软雅黑";
+            text-align: center;
+        }
+
+        .personal .personal-bottom .contents table tr.other td:nth-child(2) button#save {
+            width: 35px;
+            height: 21px;
+            border: 2px solid #c1c1c1;
+            font: 300 13px/13px "微软雅黑";
+            padding-bottom: 2px;
+            border-radius: 5px;
+        }
+
+        .personal .personal-bottom .contents table tr.other td:nth-child(2) select#jobs {
+            width: 106px;
+            height: 23px;
+            border: 1px solid #c1c1c1;
+            font: 300 13px/13px "微软雅黑";
+        }
+
+        .personal .personal-bottom .contents table tr.other td:nth-child(2) select#area {
+            width: 65px;
+            height: 23px;
+            border: 1px solid #c1c1c1;
+            font: 300 13px/13px "微软雅黑";
+        }
+
+        .personal .personal-bottom .contents table tr.other td:nth-child(3) {
+            display: inline-block;
+            width: 156px;
+            height: 28px;
+            padding: 7px 0;
+        }
+
+        .personal .personal-bottom .contents table tr.other td:nth-child(3) select {
+            width: 75px;
+            height: 22px;
+            border: 1px solid #c1c1c1;
+        }
