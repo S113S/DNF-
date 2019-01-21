@@ -213,7 +213,7 @@
 	                    <a href="#">${admin.uname }</a>
 	                    <div class="line"></div>
 	                    <a href="#">消息中心</a>
-	                    <a href="#">个人中心</a>
+	                    <a href="/dnf/user/personal">个人中心</a>
 	                    <a href="#">我的帖子</a>
 	                    <a href="/dnf/user/out">退出登录</a>
 	                </div>

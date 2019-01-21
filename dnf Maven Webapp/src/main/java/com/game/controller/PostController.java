@@ -41,7 +41,7 @@ public class PostController {
 	 * @param: 
 	 */
 	@RequestMapping("/index")
-	public String comment(Model model,Page page){
+	public String index(Model model,Page page){
 		if(page.getStart()<0){
 			page.setStart(0);
 		}
@@ -60,7 +60,7 @@ public class PostController {
 	 * @param: pid
 	 */
 	@RequestMapping("/replyPost")
-	public String index(Model model,@RequestParam(value="pid")int pid){
+	public String replyPost(Model model,@RequestParam(value="pid")int pid){
 		Map<String,Object> map=new HashMap<String,Object>();
 		map.put("pid", pid);
 		Post post=postService.getPostByMap(map);

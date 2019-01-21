@@ -1,5 +1,7 @@
 package com.game.service.impl;
 
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -21,5 +23,17 @@ public class UserServiceImpl implements UserService {
 	public boolean add(User user) {
 		if(dao.add(user)>0) return true;
 		return false;
+	}
+
+	@Override
+	public boolean uploadImage(Map<String,Object> map) {
+		if(dao.uploadImage(map)>0)
+		return true;
+		return false;
+	}
+
+	@Override
+	public User getUserByMap(Map<String, Object> map) {
+		return dao.getUserByMap(map);
 	}
 }

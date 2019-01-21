@@ -1,14 +1,20 @@
 package com.game.controller;
 
+import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.commons.lang.RandomStringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
+import com.game.entity.UploadImageFile;
 import com.game.entity.User;
 import com.game.service.UserService;
 
@@ -54,5 +60,27 @@ public class UserController {
 	public void out(HttpServletRequest request,HttpServletResponse response) throws IOException{
 		request.getSession(true).removeAttribute("admin");
 		response.sendRedirect("/dnf/home/index");
+	}
+	
+	@RequestMapping("/personal")
+	public String personal(){
+		return "user/personal";
+	}
+	
+	@RequestMapping("/upload")
+	public String upload(@RequestParam(value="uid",required=false,defaultValue="0")int uid,UploadImageFile file,HttpServletRequest request) throws IllegalStateException, IOException{
+		String name = RandomStringUtils.randomAlphanumeric(10);
+        String newFileName = name + ".jpg";
+        File newFile = new File(request.getServletContext().getRealPath("/images"), newFileName);
+        newFile.getParentFile().mkdirs();
+        file.getImage().transferTo(newFile);
+        
+        Map<String,Object> map=new HashMap();
+        map.put("uid", uid);
+        map.put("uimage", newFileName);
+        if(userService.uploadImage(map)){
+        	request.getSession(true).setAttribute("admin", userService.getUserByMap(map));
+        }
+        return "user/personal";
 	}
 }

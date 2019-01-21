@@ -8,4 +8,14 @@
 	<insert id="add">
 		insert into user_ (uphone,upwd,uname,usex) values (#{uphone},#{upwd},#{uname},#{usex})
 	</insert>
+	
+	<update id="uploadImage" parameterType="Map">
+		<if test="uid!=0">
+			update user_ set uimage=#{uimage} where uid=#{uid}
+		</if>
+	</update>
+	
+	<select id="getUserByMap" parameterType="Map" resultType="User">
+		select * from user_ where uid=#{uid}
+	</select>
 </mapper>
