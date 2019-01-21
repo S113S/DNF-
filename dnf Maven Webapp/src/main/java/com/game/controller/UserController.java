@@ -71,7 +71,7 @@ public class UserController {
 	public String upload(@RequestParam(value="uid",required=false,defaultValue="0")int uid,UploadImageFile file,HttpServletRequest request) throws IllegalStateException, IOException{
 		String name = RandomStringUtils.randomAlphanumeric(10);
         String newFileName = name + ".jpg";
-        File newFile = new File(request.getServletContext().getRealPath("/images"), newFileName);
+        File newFile = new File(request.getServletContext().getRealPath("/images/said"), newFileName);
         newFile.getParentFile().mkdirs();
         file.getImage().transferTo(newFile);
         
