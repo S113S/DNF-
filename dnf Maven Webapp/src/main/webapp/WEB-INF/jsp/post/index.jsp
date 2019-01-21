@@ -106,7 +106,7 @@
                                 <ul id="three_1">
                                     <li id="three_1-1">
                                         <img src="../images/home/board_h1.png" alt="">
-                                        <a href="/dnf/post/replyPost">综合讨论</a>
+                                        <a href="/dnf/post/index">综合讨论</a>
                                     </li>
                                     <li id="three_1-2">
                                         <img src="../images/home/board_h12.png" alt="">
@@ -185,13 +185,13 @@
 	                	<img src="../images/said/tavatar.gif" alt="">
 	                </c:if>
 	                <c:if test="${not empty admin.uimage }">
-	                	<img src="../images/${admin.uimage }" alt="">
+	                	<img src="../images/said/${admin.uimage }" alt="">
 	                </c:if>
 	                <div class="message">
 	                    <a href="#">${admin.uname }</a>
 	                    <div class="line"></div>
 	                    <a href="#">消息中心</a>
-	                    <a href="#">个人中心</a>
+	                    <a href="/dnf/user/personal">个人中心</a>
 	                    <a href="#">我的帖子</a>
 	                    <a href="/dnf/user/out">退出登录</a>
 	                </div>
@@ -269,7 +269,7 @@
 	                              	<a href=""><img src="../images/said/10.jpg" alt=""></a>
 	                              </c:if>
 	                              <c:if test="${not empty p.user.uimage }">
-	                              	<a href=""><img src="../images/${p.user.uimage }" alt=""></a>
+	                              	<a href=""><img src="../images/said/${p.user.uimage }" alt=""></a>
 	                              </c:if>
                               </div>
                               <div class="frmc">

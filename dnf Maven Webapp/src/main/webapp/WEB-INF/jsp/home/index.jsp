@@ -207,7 +207,7 @@
 	                	<img src="../images/said/tavatar.gif" alt="">
 	                </c:if>
 	                <c:if test="${not empty admin.uimage }">
-	                	<img src="../images/${admin.uimage }" alt="">
+	                	<img src="../images/said/${admin.uimage }" alt="">
 	                </c:if>
 	                <div class="message">
 	                    <a href="#">${admin.uname }</a>

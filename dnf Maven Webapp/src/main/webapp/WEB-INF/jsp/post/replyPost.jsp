@@ -135,13 +135,13 @@
 	                	<img src="../images/said/tavatar.gif" alt="">
 	                </c:if>
 	                <c:if test="${not empty admin.uimage }">
-	                	<img src="../images/${admin.uimage }" alt="">
+	                	<img src="../images/said/${admin.uimage }" alt="">
 	                </c:if>
 	                <div class="message">
 	                    <a href="#">${admin.uname }</a>
 	                    <div class="line"></div>
 	                    <a href="#">消息中心</a>
-	                    <a href="#">个人中心</a>
+	                    <a href="/dnf/user/personal">个人中心</a>
 	                    <a href="#">我的帖子</a>
 	                    <a href="/dnf/user/out">退出登录</a>
 	                </div>
@@ -193,7 +193,7 @@
                                                </c:if>
                                                <c:if test="${not empty post.user.uimage }">
                                                <a href="" class="avtm">
-                                                   <img src="../images/${post.user.uimage }" alt="">
+                                                   <img src="../images/said/${post.user.uimage }" alt="">
                                                    </a>
                                                </c:if>
                                         </div>
@@ -347,7 +347,7 @@
                                                	   </c:if>
                                                    <c:if test="${not empty r.user.uimage }">
                                                    <a href="" class="avtm">
-                                                       <img src="../images/${r.user.uimage }" alt="">
+                                                       <img src="../images/said/${r.user.uimage }" alt="">
                                                        </a>
                                                    </c:if>
                                             
