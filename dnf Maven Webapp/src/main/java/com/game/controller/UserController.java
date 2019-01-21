@@ -75,7 +75,7 @@ public class UserController {
         newFile.getParentFile().mkdirs();
         file.getImage().transferTo(newFile);
         
-        Map<String,Object> map=new HashMap();
+        Map<String,Object> map=new HashMap<String,Object>();
         map.put("uid", uid);
         map.put("uimage", newFileName);
         if(userService.uploadImage(map)){
