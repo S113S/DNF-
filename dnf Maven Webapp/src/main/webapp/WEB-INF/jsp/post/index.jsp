@@ -297,7 +297,7 @@
                                           <li class="date">
                                               <img src="../images/said/stime.png" title="发布时间">
                                               <span>
-                                                  <span title="2018-7-16">5&nbsp;天前</span>
+                                                  <span title=${p.time }>5&nbsp;天前</span>
                                               </span>
                                           </li>
                                           <li class="zc">

@@ -282,7 +282,7 @@
                                                     <span class="pipe">丨</span>
                                                     <em id="auth-1450054">
                                                         发表于
-                                                        <span title="2018-7-19 08:49:19">2&nbsp;小时前</span>
+                                                        <span title=${post.time }>2&nbsp;小时前</span>
                                                     </em>
                                                     <span class="pipe">丨</span>
                                                     <a href="">只看该作者</a>
@@ -425,7 +425,7 @@
                                                     <span class="pipe">丨</span>
                                                     <em id="auth-1450054">
                                                         发表于
-                                                        <span title="2018-7-19 08:49:19">2&nbsp;小时前</span>
+                                                        <span title=${r.time }>2&nbsp;小时前</span>
                                                     </em>
                                                     <span class="pipe">丨</span>
                                                     <a href="">只看该作者</a>

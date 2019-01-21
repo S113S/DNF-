@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.game.dao.ReplyDao">
 	<select id="getReplysByMap" resultMap="ReplyMap">
-		select * from reply_ where pid=#{pid}
+		select * from reply_ where pid=#{pid} order by rid
 	</select>
 	
 	<insert id="add">

@@ -1,6 +1,9 @@
 package com.game.controller;
 
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -50,6 +53,11 @@ public class PostController {
 		page.tailSum(num);
 		
 		List<Post> postList=postService.getPosts(page);
+		Collections.sort(postList,new Comparator<Post>() { 
+            public int compare(Post o1, Post o2) {
+                return o2.getTime().compareTo(o1.getTime());
+            }  
+        });
 		model.addAttribute("postList", postList);
 		return "post/index";
 	}
@@ -64,7 +72,13 @@ public class PostController {
 		Map<String,Object> map=new HashMap<String,Object>();
 		map.put("pid", pid);
 		Post post=postService.getPostByMap(map);
+		
 		List<Reply> replyList=replyService.getReplysByMap(map);
+		Collections.sort(replyList,new Comparator<Reply>() { 
+            public int compare(Reply o1, Reply o2) {
+                return o2.getTime().compareTo(o1.getTime());
+            }  
+        });
 		
 		model.addAttribute("post", post);
 		model.addAttribute("replyList", replyList);
