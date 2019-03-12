@@ -46,8 +46,6 @@ public class UserController {
 	
 	@RequestMapping("/add")
 	public void add(User user,HttpServletRequest request,HttpServletResponse response) throws IOException{
-//		int usex=Integer.parseInt(request.getParameter("usex"));
-//		user.setUsex(usex);
 		System.out.println(user);
 		if(userService.add(user)){
 			response.sendRedirect("/dnf/user/login");
@@ -72,12 +70,16 @@ public class UserController {
 		String name = RandomStringUtils.randomAlphanumeric(10);
         String newFileName = name + ".jpg";
         File newFile = new File(request.getServletContext().getRealPath("/images/said"), newFileName);
+        
+        System.out.println(request.getServletContext().getRealPath("/images/said"));
+        //System.out.println(request.getContextPath()+"/images/said");
+        
         newFile.getParentFile().mkdirs();
         file.getImage().transferTo(newFile);
-        
         Map<String,Object> map=new HashMap<String,Object>();
         map.put("uid", uid);
         map.put("uimage", newFileName);
+        
         if(userService.uploadImage(map)){
         	request.getSession(true).setAttribute("admin", userService.getUserByMap(map));
         }

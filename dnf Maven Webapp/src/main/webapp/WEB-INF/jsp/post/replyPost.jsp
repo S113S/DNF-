@@ -151,8 +151,10 @@
     </div>
     <!-- top -->
     <div class="top"></div>
+    
     <!-- 版心 -->
-    <div class="banxin">
+    <div class="rp">
+    	<div class="banxin">
         <div class="post">
             <div class="post-top">
                 <div class="z">
@@ -265,24 +267,15 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <div class="pi clearfix">
-                                            <div class="zdnc fr">
-                                                <label class="fl">直达</label>
-                                                <input type="text" class="pre fl">
-                                                <a href="" title="跳到指定楼层" class="fl">
-                                                    <img src="../images/said/fj_btn.png" alt="">
-                                                </a>
-                                            </div>
-                                            <em>
-                                                <a href="">楼主</a>
-                                            </em>
+                                        <div class="pi">
+                                            <em></em>
                                             <div class="pti">
                                                 <div class="authii">
                                                     <img src="../images/said/ico_lz.png" alt="" class="authicn vm"> &nbsp; 楼主
                                                     <span class="pipe">丨</span>
                                                     <em id="auth-1450054">
                                                         发表于
-                                                        <span title=${post.time }>2&nbsp;小时前</span>
+                                                        <span>${post.time }</span>
                                                     </em>
                                                     <span class="pipe">丨</span>
                                                     <a href="">只看该作者</a>
@@ -297,7 +290,7 @@
                                                 <table>
                                                     <tbody>
                                                         <tr>
-                                                            <td class="t-f" id="postmessage_1450054">
+                                                            <td style="width: 1220px" class="t-f" id="postmessage_1450054">
                                                                 ${post.content }
                                                             </td>
                                                         </tr>
@@ -317,7 +310,7 @@
                                 </tr>
                                 <tr>
                                     <td class="pls"></td>
-                                    <td class="plc clearfix">
+                                    <td class="plc">
                                         <div class="pob fr">
                                             <em class="fl">
                                                 <a href="javascript:void(0)" onclick="addZan1(${post.pid},${admin.uid})">点赞(
@@ -409,23 +402,14 @@
                                     </td>
                                     <td class="plc">
                                         <div class="pi">
-                                            <div class="zdnc fr">
-                                                <label class="fl">直达</label>
-                                                <input type="text" class="pre fl">
-                                                <a href="" title="跳到指定楼层" class="fl">
-                                                    <img src="../images/said/fj_btn.png" alt="">
-                                                </a>
-                                            </div>
-                                            <em>
-                                                <a href="">观光</a>
-                                            </em>
+                                            <em></em>
                                             <div class="pti">
                                                 <div class="authii">
-                                                    <img src="../images/said/author.png" alt="" class="authicn vm"> &nbsp; 游客
+                                                    <img src="../images/said/author.png" alt="" class="authicn vm">
                                                     <span class="pipe">丨</span>
                                                     <em id="auth-1450054">
                                                         发表于
-                                                        <span title=${r.time }>2&nbsp;小时前</span>
+                                                        <span>${r.time }</span>
                                                     </em>
                                                     <span class="pipe">丨</span>
                                                     <a href="">只看该作者</a>
@@ -440,7 +424,7 @@
                                                 <table>
                                                     <tbody>
                                                         <tr>
-                                                            <td class="t-f" id="postmessage_1450054">
+                                                            <td style="width: 1220px" class="t-f" id="postmessage_1450054">
                                                                 ${r.content }
                                                             </td>
                                                         </tr>
@@ -511,6 +495,8 @@
 	        </div>
         </div>
     </div>
+    </div>
+    
     <!-- tail -->
     <div class="tail">
         <div class="w1220">

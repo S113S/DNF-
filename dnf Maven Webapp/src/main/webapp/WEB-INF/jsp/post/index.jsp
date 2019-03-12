@@ -295,9 +295,9 @@
                                               <a href="">	${p.user.uname }</a>
                                           </li>
                                           <li class="date">
-                                              <img src="../images/said/stime.png" title="发布时间">
+                                              <img src="../images/said/stime.png" title=${p.time }>
                                               <span>
-                                                  <span title=${p.time }>5&nbsp;天前</span>
+                                                  <span></span>
                                               </span>
                                           </li>
                                           <li class="zc">

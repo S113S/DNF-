@@ -45,12 +45,14 @@ public class PostController {
 	 */
 	@RequestMapping("/index")
 	public String index(Model model,Page page){
-		if(page.getStart()<0){
-			page.setStart(0);
-		}
-		
 		int num=postService.count();
 		page.tailSum(num);
+		
+		if(page.getStart()<0){
+			page.setStart(0);
+		}else if(page.getStart()>page.getTail()){
+			page.setStart(page.getTail());
+		}
 		
 		List<Post> postList=postService.getPosts(page);
 		Collections.sort(postList,new Comparator<Post>() { 
